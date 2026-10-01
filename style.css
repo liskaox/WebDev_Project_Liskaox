@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #FFD4A1;
+  }
+/*Styling for the main menu bar at the top*/
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  border-style: groove;
+  border-color: #ff9d26;
+  border-width: 5px;
+}
+/*styling for the logo and links placement*/
+.logo a{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.navLinks ul{
+  display: flex;
+  list-style: none;
+  gap: 25px;
+  margin-right: 25px;
+  margin-top: 25px;
+  size: 30px;
+}
+a { 
+  font-family:Open Sans;
+  font-size:30px;
+  color: #feb459;
+  align-items: center;
+}
+/*link colour will change when hovered over*/
+.navLinks a:hover{
+  color: #ff8c00
+}
+h1{
+    font-family:Open Sans;
+     font-size:100px;
+     color: #fb8767;
+}
