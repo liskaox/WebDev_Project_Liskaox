@@ -3,8 +3,12 @@
   margin: 0;
   padding: 0;
 }
+/*Background styling for image & so it moves when scrolling*/
 body {
-  background-color: #FFD4A1;
+  background-image: url("images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
   }
 /*Styling for the main menu bar at the top*/
 .navbar {
@@ -56,7 +60,12 @@ h5 {
     font-size: 22px;
     color: #FB6791;
 }
+p{  
+    font-family: 'Outfit';
+    font-size: 22px;
+    color: #646464;
 
+}
 /*Favourite car of the week stuffy*/
 .fav-image{
   width: 100%;
