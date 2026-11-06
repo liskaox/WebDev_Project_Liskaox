@@ -53,24 +53,40 @@ h1 {
 h2 {
     font-family: 'Manrope';
     font-size: 40px;
-    color: #BD1671;
+    color: #3b40c8;
 }
 h5 {
     font-family: 'Outfit';
     font-size: 22px;
-    color: #FB6791;
+    color: #BD1671;
+    margin-right:30px; 
+    margin-left:30px;
 }
 p{  
     font-family: 'Outfit';
     font-size: 22px;
-    color: #646464;
+    color: #454545;
+    margin-right:70px; 
+    margin-left:70px;
 
 }
-/*Favourite car of the week stuffy*/
+/*Favourite car of the week stuff*/
 .fav-image{
   width: 100%;
   height: 475px;
   border-radius: 8px;
   object-fit: cover;
   align-items: center;
+}
+/*To float the image of the owner next to the text*/
+.owner{
+  margin: 30px auto;
+  padding: 0 20px;
+}
+/*This is to target the image itself*/
+.owner-img{
+  float: left;
+  height: 300px;
+  margin-right:25px;
+  border-radius: 8px;
 }
