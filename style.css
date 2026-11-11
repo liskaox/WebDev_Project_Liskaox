@@ -34,12 +34,12 @@ body {
   margin-top: 25px;
   size: 30px;
 }
-/*colours for nav links*/
+/*colour and font for nav links, sleeker look*/
 a { 
-  font-family:Open Sans;
-  font-size:30px;
   color: #feb459;
   align-items: center;
+  font-family: 'Agdasima';
+  font-size: 43px;
 }
 /*link colour will change when hovered over*/
 .navLinks a:hover{
